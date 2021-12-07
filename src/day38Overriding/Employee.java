@@ -3,9 +3,11 @@ package day38Overriding;
 public class Employee {
     int hourlyPay = 10;
     double totalPay;
+    static boolean isEnough;
 
 
     public double calculateDailyPay(int dailyWorkHour){
+        System.out.println(isEnough);
         totalPay = hourlyPay * dailyWorkHour;
         return totalPay;
     }
