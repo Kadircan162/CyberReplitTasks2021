@@ -3,7 +3,7 @@ package day38Overriding;
 public class Employee {
     int hourlyPay = 10;
     double totalPay;
-    static boolean isEnough;
+    static boolean  isEnough = false;
 
 
     public double calculateDailyPay(int dailyWorkHour){
