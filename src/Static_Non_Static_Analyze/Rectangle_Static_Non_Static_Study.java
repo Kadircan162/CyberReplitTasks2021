@@ -27,6 +27,7 @@ public class Rectangle_Static_Non_Static_Study { // * if you do not create a con
 //    }
 
      public static int RecMeStatic(){
+         System.out.println(lengthStatic);
          System.out.println(Rectangle_Static_Non_Static_Study.lengthStatic);
          Rectangle_Static_Non_Static_Study r = new Rectangle_Static_Non_Static_Study();
          System.out.println(r.lengthStatic);

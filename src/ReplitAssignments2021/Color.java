@@ -33,7 +33,6 @@ public class Color {
      * @param b
      */
     public Color(int r, int g, int b){
-        //TODO
         this.rgb[0] = r;
         this.rgb[1] = g;
         this.rgb[2] = b;
@@ -44,7 +43,6 @@ public class Color {
      * try to use this() keyword to call above constructor to set white color
      */
     public Color() {
-        //TODO
         this(255,255,255);
     }
 
@@ -71,7 +69,6 @@ public class Color {
      */
 
     public String toString() {
-        //TODO
 
         if(Arrays.equals(rgb, WHITE)) return "white";
         if(Arrays.equals(rgb, LIGHT_GRAY)) return "light gray";

@@ -5,11 +5,18 @@ public class Employee {
     double totalPay;
     static boolean  isEnough = false;
 
-
     public double calculateDailyPay(int dailyWorkHour){
         System.out.println(isEnough);
         totalPay = hourlyPay * dailyWorkHour;
+        FullTimeEmployee ft = new FullTimeEmployee();
+        ft.setSuperStaticVariable(true);
         return totalPay;
+
+
+    }
+
+    public static void xct(){
+        System.out.println("Call me");
     }
 
     public FullTimeEmployee workerType(){

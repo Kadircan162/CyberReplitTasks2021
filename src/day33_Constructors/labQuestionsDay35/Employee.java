@@ -20,6 +20,7 @@ public class Employee {
         position = "";
     }
     public Employee(){
+        System.out.println("No arg constructor of SuperEmployeeClass");
         name = "";
         idNumber = 0;
         department = "";

@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 public class DublicatesInArray {
 
-    public static int getDup(String[] r) { //"g", "g", "aabb", "7", "7", "2", "aabb", "7"
-        ArrayList<String> dupStr = new ArrayList<>();
+    public static int getDup(String[] r) { //"1","g","aabb","7","7","2","aa","7"
+        ArrayList<String> dupStr = new ArrayList<>(); //7, 7,7
 
         for(int i=0; i<r.length; i++){
             if(dupStr.contains(r[i])){
@@ -33,12 +33,12 @@ public class DublicatesInArray {
     }
 
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        String [] strs = new String[in.nextInt()];
-        for(int i=0; i < strs.length; i++) {
-            strs[i] = in.next();
-        }
-        //String[] strs = {"1","g","aabb","7","7","2","aa","7"};
+//        Scanner in = new Scanner(System.in);
+//        String [] strs = new String[in.nextInt()];
+//        for(int i=0; i < strs.length; i++) {
+//            strs[i] = in.next();
+//        }
+        String[] strs = {"1","g","aabb","7","7","2","aa","7"};
 
         System.out.println(String.valueOf(getDup(strs)).trim());
 
