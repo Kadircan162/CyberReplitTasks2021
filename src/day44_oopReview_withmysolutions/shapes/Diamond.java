@@ -1,4 +1,4 @@
-package day44_oopReview.shapes;
+package day44_oopReview_withmysolutions.shapes;
 
 public class Diamond extends Shape{
 

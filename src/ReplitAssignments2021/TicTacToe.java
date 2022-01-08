@@ -1,13 +1,14 @@
 package ReplitAssignments2021;
 
-public class TicTacToe {
+
+
+class TicTacToe {
     public static void main(String[] args) {
         char[] x = {
-                'X', 'X', 'X',
-                '-', 'X', '-',
-                '-', '0', '-'
+                'X', 'X', '-',
+                '-', '-', '-',
+                'O', 'O', 'O'
         };
-
 
         System.out.println("won(x) = " + won(x));
 
@@ -36,3 +37,4 @@ public class TicTacToe {
 
     }
 }
+

@@ -1,8 +1,10 @@
-package day44_oopReview.shapes;
+package day44_oopReview_withmysolutions.shapes;
 
 import java.util.List;
 
 public class ShapeManager {
+
+    public int x = 10;
 
     public static Shape buildShape(String type){
         Shape shape;
