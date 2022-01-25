@@ -11,23 +11,25 @@ public class TeslaSemi extends ElectricTruck{
 
     @Override
     public void start() {
-
+        System.out.println("TeslaSemi = Push start button to start");
     }
 
     @Override
     public void charge() {
+        System.out.println("TeslaSemi = Charging quietly");
 
     }
 
     @Override
     public void drive() {
+        System.out.println("TeslaSemi = driving with pleasure");
 
     }
 
     @Override
     public void load(String item) {
 
-        System.out.println("Tesla-Semi load " + item + "by lowering the truck and opening the door");
+        System.out.println("Tesla-Semi load " + item + " by lowering the truck and opening the door");
 
     }
 

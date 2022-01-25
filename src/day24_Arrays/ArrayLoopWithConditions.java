@@ -1,7 +1,9 @@
 package day24_Arrays;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Currency;
+import java.util.List;
 
 public class ArrayLoopWithConditions {
     public static void main(String[] args) {
@@ -15,5 +17,6 @@ public class ArrayLoopWithConditions {
             }
 
         }
+
     }
 }

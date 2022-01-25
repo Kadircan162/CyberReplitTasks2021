@@ -1,6 +1,6 @@
 package assignmentOnArrayNovDay17;
 
-public class Q4CricketScores {
+public class Q4CricketScores{
     //Question 4:
     public static void main(String[] args) {
         short [] scores = {51, 85, 32, 0, 98, 157, 82, 101, 64, 249};
@@ -13,4 +13,6 @@ public class Q4CricketScores {
         System.out.println("half-century: "+countHalf + "\ncentury: "+countCentury +
                 "\ndouble-century: " + countDouble);
     }
+
+
 }

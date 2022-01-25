@@ -7,7 +7,21 @@ public class Diamond extends Shape{
     }
 
     @Override
+    public void shapesInMath() {
+        System.out.println("Calculate with diamond");
+    }
+
+    @Override
     public void draw() {
         System.out.println("Drawing a " + type);
     }
+
+    public void diamondOnKite(){
+        System.out.println("Some kites has a diamond shape");
+    }
+
+    public static void drawSquare(Square square){
+        System.out.println("Diamond square");
+    }
+
 }

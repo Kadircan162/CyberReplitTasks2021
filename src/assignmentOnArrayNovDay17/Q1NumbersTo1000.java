@@ -14,4 +14,6 @@ public class Q1NumbersTo1000 {
             }
         }
     }
+
+    public static void Q1Calc(){}
 }

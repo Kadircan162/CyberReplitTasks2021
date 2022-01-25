@@ -30,4 +30,6 @@ public class Employee {
     public Contractor workerType(Contractor ct, FullTimeEmployee ft){
         return new Contractor();
     }
+
+    protected void m1(){}
 }

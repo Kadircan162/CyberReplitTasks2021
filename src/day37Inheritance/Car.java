@@ -3,7 +3,7 @@ package day37Inheritance;
 public class Car extends Vehicle{
     int door;
     String model;
-    String year;
+    public String year;
 
     public Car(){
 

@@ -7,11 +7,21 @@ public class Square extends Shape{
     }
 
     @Override
+    public void shapesInMath() {
+        System.out.println("Calculate with square");
+    }
+
+    @Override
     public void draw() {
         System.out.println("Drawing a " + type);
     }
 
     public void squareMethod(){
         System.out.println("Square method");
+    }
+
+    public void squareRolling(){
+
+        System.out.println("I can roll when used as a wheel");
     }
 }

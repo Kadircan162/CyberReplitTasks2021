@@ -1,6 +1,6 @@
 package day33_Constructors;
 
-public class BusTest {
+public class BusTest extends Bus{
     public static void main(String[] args) {
 
         Bus bus1 = new Bus("Volvo");
@@ -14,5 +14,8 @@ public class BusTest {
         Bus bus5 = new Bus("Tourism", "Mitsubishi", true, false);
         bus5.printOut();
         System.out.println(bus5.toString());
+
+        Bus bus6 = new Bus();
+        bus6.printOut();
     }
 }

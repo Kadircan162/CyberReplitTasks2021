@@ -1,6 +1,6 @@
 package day41_abstract_class;
 
-public abstract class ElectricCar {
+public abstract class ElectricCar{
 
     private String model, color;
     private double price;

@@ -1,4 +1,3 @@
-
 package day43_polymorphism3_polymorphic_array_ArrayList_included;
 
 public class Circle extends Shape {

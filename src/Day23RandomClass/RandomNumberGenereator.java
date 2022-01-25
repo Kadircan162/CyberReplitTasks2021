@@ -3,6 +3,7 @@ package Day23RandomClass;
 import java.util.Random;
 
 public class RandomNumberGenereator {
+
     public static void main(String[] args){
         Random rn = new Random();
         System.out.println(rn.nextLong());

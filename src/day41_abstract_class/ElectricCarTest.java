@@ -1,21 +1,38 @@
 package day41_abstract_class;
 
+import static day41_abstract_class.Ford.brand;
+import static day41_abstract_class.Ford.test;
+
 public class ElectricCarTest {
 
     public static void main(String[] args) {
 
-        Tesla tesla = new Tesla("TeslaX", "Red", 50_000);
+        System.out.println("brand = " + brand);
+        brand = "Ford Electric Car";
+        System.out.println("brand = " + brand);
+        test();
+
+        Ford ford2 = new Ford(1999, "Focus", "White", 35.000);
+        ford2.brand = "Electrical Ford";
+        System.out.println("ford.brand = " + ford2.brand);
+        System.out.println("brand = " + brand);
+
+        Ford ford3 = new Ford(2009, "Mondeo", "Black", 55.000);
+        System.out.println("ford3.brand = " + ford3.brand);
+        System.out.println("brand = " + brand);
+
+        //Tesla tesla = new Tesla("TeslaX", "Red", 50_000);
 //        System.out.println("tesla.getModel() = " + tesla.getModel());
 //        System.out.println("tesla.getColor() = " + tesla.getColor());
 //        System.out.println("tesla.getPrice() = " + tesla.getPrice());
 
-        tesla.charge();
-        tesla.start();
-        tesla.drive();
-        tesla.stop();
-
-
-        System.out.println(tesla); //same as using toString
+//        tesla.charge();
+//        tesla.start();
+//        tesla.drive();
+//        tesla.stop();
+//
+//
+//        System.out.println(tesla); //same as using toString
 
         System.out.println("=================================================");
 

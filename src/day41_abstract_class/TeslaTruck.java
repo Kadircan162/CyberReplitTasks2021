@@ -7,4 +7,6 @@ public class TeslaTruck extends TeslaSemi{
     }
 
 
+
+
 }

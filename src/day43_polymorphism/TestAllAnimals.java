@@ -12,8 +12,11 @@ public class TestAllAnimals {
 
         //Animal types
         animal = new Animal();//The reference of Animal type can be modified to address either to itself ot its child classes (Dog, Cat, Bird)
+        animal.animalCount=10;
         animal = new Cat(); //Cat extends Animal class
+
         animal = new Bird(); //Bird extends Animal class
+
 
         //Living types
         //animal2 = new Livings();//error: Livings is an interface, so it cannot be instanced (it has no constructor)

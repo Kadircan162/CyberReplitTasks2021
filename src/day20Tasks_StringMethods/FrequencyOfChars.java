@@ -1,6 +1,9 @@
 package day20Tasks_StringMethods;
 
 public class FrequencyOfChars {
+
+
+
     public static void main(String[] args) {
         System.out.println(frequency("aabcd", 'a'));
         System.out.println(uniqueCharacters("abccc"));
@@ -15,6 +18,8 @@ public class FrequencyOfChars {
             return count;
     }
     public static String uniqueCharacters(String str){
+
+
         String uniqueChars = "";
         for(int i=0; i<str.length(); i++){
             if(frequency(str,str.charAt(i)) == 1){

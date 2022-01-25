@@ -16,12 +16,13 @@ public class Bus{
     private int numOfDoors;
     private int numOfSeats;
 
+    protected Bus(){}
 
-    public Bus(String make){
+    protected Bus(String make){
         ConstructBus(make); // a basic bus will be created
     }
 
-    public Bus(String usagePurpose, String make){
+    protected Bus(String usagePurpose, String make){
         this(make);
         this.usagePurpose = usagePurpose;
         if(this.usagePurpose.equalsIgnoreCase("School")){
@@ -34,7 +35,7 @@ public class Bus{
         }
     }
 
-    public Bus(String usagePurpose, String make, boolean manAuto){
+    protected Bus(String usagePurpose, String make, boolean manAuto){
         this(usagePurpose, make);
         if(manAuto){
             this.climateAC = true;
