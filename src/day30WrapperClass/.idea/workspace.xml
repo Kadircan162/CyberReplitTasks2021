@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="de65b5bb-a762-402a-a694-e0297d1ef2bf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ReplitAssignments2021/Hunt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReplitAssignments2021/HuntTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Static_Non_Static_Analyze/ABC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Static_Non_Static_Analyze/ABCTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Static_Non_Static_Analyze/Classroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Static_Non_Static_Analyze/Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Static_Non_Static_Analyze/School.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Static_Non_Static_Analyze/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Static_Non_Static_Analyze/XYZStaticBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day37Inheritance/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day37Inheritance/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interviewQuestions/StringEliminateDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReplitAssignments2021/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ReplitAssignments2021/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Static_Non_Static_Analyze/Rectangle_Static_Non_Static_Study.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Static_Non_Static_Analyze/Rectangle_Static_Non_Static_Study.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day33_Constructors/labQuestionsDay35/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day33_Constructors/labQuestionsDay35/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day38Overriding/Contractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day38Overriding/Contractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day38Overriding/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day38Overriding/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day38Overriding/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day38Overriding/EmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day38Overriding/FullTimeEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day38Overriding/FullTimeEmployee.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="22DgpBVMCl88HSDJl26oYCkiY62" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de65b5bb-a762-402a-a694-e0297d1ef2bf" name="Changes" comment="" />
+      <created>1639377752021</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639377752021</updated>
+    </task>
+    <servers />
+  </component>
+</project>

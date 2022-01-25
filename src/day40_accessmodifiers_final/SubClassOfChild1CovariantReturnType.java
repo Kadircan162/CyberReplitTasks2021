@@ -1,0 +1,4 @@
+package day40_accessmodifiers_final;
+
+public class SubClassOfChild1CovariantReturnType extends Child1CovariantReturnType{
+}
