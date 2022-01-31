@@ -15,4 +15,6 @@ public interface ITestable2 {
 
     public static void met1(){}
 
+    default void interfaceMethod1(){}
+
 }

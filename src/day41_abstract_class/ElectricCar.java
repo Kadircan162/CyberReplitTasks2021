@@ -5,6 +5,8 @@ public abstract class ElectricCar{
     private String model, color;
     private double price;
 
+    public static final int i = 30;
+
     public ElectricCar(String model, String color, double price) {
         this.model = model;
         this.color = color;

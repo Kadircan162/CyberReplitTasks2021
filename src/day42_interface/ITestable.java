@@ -32,12 +32,12 @@ public interface ITestable extends NewTestable, ITestable2{//an interface can on
 
     //void charge8(){} //error: regular method (with block) cannot have 'default access modifier' in interface as java takes it as being abstract class
     private void charge6(){}//private regular method is welcome in interface
-    private static void charge7(){System.out.println("I'm private static");}//private regular method with static is welcome in interface
+    private static void charge7(){System.out.println("I'm private static");}//private regular method with static is welcome in interface. private static method may be invoked on containing interface class only--here in the interface--and
     //private final void charge12(){}//error: private with final keyword is NOT allowed for a method.
     //public final void charge13(){}//error: public+final is not allowed for a method with body.
     public static void charge8(){System.out.println("I'm public static");}//Modifier 'public' is redundant for interface methods
     //public regular method with static is welcome in interface. But it cannot be inherited or hidden by subclasses.
-    static void charge12(){System.out.println("I'm static");}//Static method may be invoked on containing interface class only--here in the interface--and it's declared implicitly public
+    static void charge12(){System.out.println("I'm static");}//It's declared implicitly public
     //final static void charge13(){}//error:Illegal combination of modifiers: 'static' and 'final'
     //protected void charge7(){};//error: protected method cannot be created in an interface
     //public void charge9(){} //error: public regular method (with block) is not allowed in interface as java takes it as being abstract class
@@ -47,6 +47,8 @@ public interface ITestable extends NewTestable, ITestable2{//an interface can on
     //protected default void test(){}//error: protected not allowed for a method.
     //private default void test2(){} //error: private and default keywords cannot be used at the same time
     //public default static void charge10(){}//error: default and static cannot be used at the same time for a method with body
+
+
 
     public static void main(String[] args) {//main method is welcome in an interface
         charge8();

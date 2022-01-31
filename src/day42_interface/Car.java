@@ -61,4 +61,11 @@ public class Car extends Vehicle implements ITestable,ITestable2{
     public void charge11() { //this abstract method is overridden only from ITestable2 interface
 
     }
+
+    public static void main(String[] args) {//main method is welcome in an interface
+        ITestable.charge8();
+
+        ITestable itest = new Car();
+
+    }
 }
